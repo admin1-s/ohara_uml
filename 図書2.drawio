@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="ページ1" id="lNt8wB69FJ_VK-7izIrJ">
+    <mxGraphModel dx="786" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-4" value="図書カード" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tZ-1iirPrC4PU98mI8c1-4" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="250" y="230" as="sourcePoint" />
+            <mxPoint x="370" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-6" value="図書カード作成" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tZ-1iirPrC4PU98mI8c1-6" target="tZ-1iirPrC4PU98mI8c1-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="90" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-8" value="氏名&lt;div&gt;住所&lt;/div&gt;&lt;div&gt;電話番号&lt;/div&gt;&lt;div&gt;電子メール・アドレス&lt;/div&gt;&lt;div&gt;IDナンバー&lt;/div&gt;&lt;div&gt;パスワード&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="100" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.028;exitY=0.109;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="tZ-1iirPrC4PU98mI8c1-8" target="tZ-1iirPrC4PU98mI8c1-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="250" as="sourcePoint" />
+            <mxPoint x="320" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-10" value="利用者コンピュータで借りたい図書の検索ができる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-12" value="8冊までの図書を最大１５日間借りることができる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="193" y="225" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-14" value="借りたい本が無い場合には、貸出可能になったときに連絡を受ける" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="230" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-15" value="自分の借りている本の一覧と、あと何冊借りることができるかの確認ができる" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="8" y="350" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-17" value="自分の借りてい本の一覧には、書名、著者名、貸出期限が表示される" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="355" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ-1iirPrC4PU98mI8c1-18" value="返却期間を大幅に過ぎ、督促にも返事が無い場合には、図書カードの発行を取り消すことがある" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="355" width="160" height="85" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
