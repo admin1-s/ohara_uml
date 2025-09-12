@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="L03RjHo0g5UotfwQl5xr" name="ページ1">
-        <mxGraphModel dx="307" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="777" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="0xTgwSFa-GwKmICh-nf7-2" value="RoboDog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="105" y="58" width="70" height="30" as="geometry"/>
+                    <mxGeometry x="105" y="73" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="0xTgwSFa-GwKmICh-nf7-3" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="124" y="135" width="30" height="60" as="geometry"/>
