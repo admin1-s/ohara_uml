@@ -1,0 +1,144 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram id="YoNPb6bfioFdIuRTHOxw" name="ページ1">
+    <mxGraphModel dx="1754" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FN90RFHEBSVxVN53uuIv-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeWidth=1;" vertex="1" parent="FN90RFHEBSVxVN53uuIv-3">
+          <mxGeometry x="2.5" y="90" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeWidth=1;" vertex="1" parent="FN90RFHEBSVxVN53uuIv-3">
+          <mxGeometry x="2.5" y="204" width="15" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-7" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="161" y="40" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FN90RFHEBSVxVN53uuIv-7">
+          <mxGeometry x="19" y="100" width="15" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="259" y="40" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="FN90RFHEBSVxVN53uuIv-8">
+          <mxGeometry x="21" y="105" width="15" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-9" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlControl;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="381" y="40" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-10" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlEntity;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="494" y="40" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="62" y="384" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-12" value="活性区間&lt;div&gt;Activation Bar&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="68" y="383" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="179" y="462" as="sourcePoint" />
+            <mxPoint x="179" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-15" value="生存線&lt;div&gt;Life Line&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="383" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="77" y="139" as="sourcePoint" />
+            <mxPoint x="180" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-18" value="メニュー画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="129" y="76" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-19" value="学生登録画面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="76" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-20" value="学生情報登録" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="76" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-21" value="学生オブジェクト" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="454" y="76" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-22" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="40" as="sourcePoint" />
+            <mxPoint x="30" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-23" value="時間の流れ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-9" y="358" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-24" value="学生登録を選択()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="116" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="432" as="sourcePoint" />
+            <mxPoint x="350" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-26" value="操作()&lt;div&gt;Method&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="274" y="382" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-27" value="メッセージ&lt;div&gt;Message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="382" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="145" as="sourcePoint" />
+            <mxPoint x="280" y="145" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-31" value="表示()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="209" y="117" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="276" y="257" width="15" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="257" as="sourcePoint" />
+            <mxPoint x="276" y="257" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="393" y="265" width="15" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="291" y="265" as="sourcePoint" />
+            <mxPoint x="393" y="265" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="507" y="274" width="15" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="408" y="274" as="sourcePoint" />
+            <mxPoint x="507" y="274" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-40" value="学生データ入力()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="74" y="227" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-41" value="起動()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="311" y="234" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FN90RFHEBSVxVN53uuIv-42" value="学生データ登録()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
