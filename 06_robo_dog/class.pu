@@ -1,10 +1,16 @@
 @startuml
 skinparam classAttributeIconSize 0
 class Robo Dog {
+'属性
  -名前
- -挨拶
  -時刻
- +
+ -挨拶
+ -２つの整数
+ -足し算結果
+'操作
+ +名前を変更する()
+ +時刻に応じた挨拶をする()
+ +足し算をする()
 }
 
 @enduml
