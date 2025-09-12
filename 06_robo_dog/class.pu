@@ -1,6 +1,6 @@
 @startuml
 skinparam classAttributeIconSize 0
-class Robo Dog {
+class RoboDog {
 '属性
  -名前
  -時刻
