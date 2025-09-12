@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram id="S4gZAewlNwuV0dsOJkcJ" name="ページ1">
+    <mxGraphModel dx="927" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OIBrJrRNdDZq52Y07utB-2" value="学生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-3" value="メニュー画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="22" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.03;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OIBrJrRNdDZq52Y07utB-2" target="OIBrJrRNdDZq52Y07utB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="120" as="sourcePoint" />
+            <mxPoint x="240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-5" value="①メニュー画面を&lt;div&gt;クリックする&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-6" value="表示(する)" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="60" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.038;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.99;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OIBrJrRNdDZq52Y07utB-3" target="OIBrJrRNdDZq52Y07utB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="197" as="sourcePoint" />
+            <mxPoint x="267" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-8" value="学生登録&lt;div&gt;画面&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="159" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.943;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.09;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OIBrJrRNdDZq52Y07utB-6" target="OIBrJrRNdDZq52Y07utB-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="140" as="sourcePoint" />
+            <mxPoint x="418" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.03;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OIBrJrRNdDZq52Y07utB-2" target="OIBrJrRNdDZq52Y07utB-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="170" as="sourcePoint" />
+            <mxPoint x="228" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-12" value="②学生情報を&lt;div&gt;入力する&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-13" value="学生情報&lt;div&gt;登録&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="401" y="199" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.029;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.93;exitY=0.742;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OIBrJrRNdDZq52Y07utB-8" target="OIBrJrRNdDZq52Y07utB-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="sourcePoint" />
+            <mxPoint x="437" y="321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-15" value="学生オブジェクト(データ)" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-17" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.029;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#CC0000;" edge="1" parent="1" source="OIBrJrRNdDZq52Y07utB-13" target="OIBrJrRNdDZq52Y07utB-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="250" as="sourcePoint" />
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-18" value="・登録の成功、失敗&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="279" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OIBrJrRNdDZq52Y07utB-19" value="・すでに存在するかもしれない" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="300" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
