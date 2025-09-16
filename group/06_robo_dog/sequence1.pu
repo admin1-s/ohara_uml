@@ -1,0 +1,46 @@
+@startuml 名前変更シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as User
+boundary メニュー画面 as Menu
+boundary 名前の変更画面 as NameChangeScreen
+control 名前変更処理 as NameChangeControl
+entity Robodog as Robodog
+boundary 名前変更結果画面 as ResultScreen
+
+User -> Menu: 「名前の変更」を選択
+activate Menu
+Menu -> NameChangeControl: 名前変更画面表示要求
+deactivate Menu
+
+activate NameChangeControl
+NameChangeControl -> Robodog: 現在の名前取得
+activate Robodog
+Robodog --> NameChangeControl: 現在の名前
+deactivate Robodog
+
+NameChangeControl -> NameChangeScreen: 名前変更画面表示（現在の名前付き）
+deactivate NameChangeControl
+
+activate NameChangeScreen
+User -> NameChangeScreen: 新しい名前入力・変更ボタン押下
+NameChangeScreen -> NameChangeControl: 新しい名前登録要求
+deactivate NameChangeScreen
+
+activate NameChangeControl
+NameChangeControl -> Robodog: 新しい名前登録
+activate Robodog
+Robodog --> NameChangeControl: 登録完了
+deactivate Robodog
+
+NameChangeControl -> ResultScreen: 名前変更結果画面表示
+deactivate NameChangeControl
+
+activate ResultScreen
+User -> ResultScreen: 結果確認
+deactivate ResultScreen
+
+@enduml

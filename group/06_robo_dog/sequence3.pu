@@ -1,0 +1,44 @@
+@startuml RoboDog-２つの整数の足し算シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as User
+boundary メニュー画面 as Menu
+boundary 足し算入力画面 as AdditionInputScreen
+boundary 計算結果画面 as ResultScreen
+control 整数登録 as IntegerRegister
+control 足し算処理 as AdditionProcess
+entity Robodog as Robodog
+
+User -> Menu: 「２つの整数の足し算」を選択
+activate Menu
+
+Menu -> AdditionInputScreen: 足し算入力画面表示
+deactivate Menu
+activate AdditionInputScreen
+
+User -> AdditionInputScreen: ２つの整数を入力
+
+AdditionInputScreen -> IntegerRegister: ２つの整数を登録
+activate IntegerRegister
+IntegerRegister -> Robodog: 整数データ保存
+activate Robodog
+Robodog --> IntegerRegister: 保存完了
+deactivate Robodog
+
+IntegerRegister -> AdditionProcess: 足し算処理を行う
+deactivate IntegerRegister
+activate AdditionProcess
+AdditionProcess -> Robodog: 足し算結果を登録
+activate Robodog
+Robodog --> AdditionProcess: 登録完了
+deactivate Robodog
+
+AdditionProcess -> ResultScreen: 計算結果画面表示
+deactivate AdditionProcess
+deactivate AdditionInputScreen
+activate ResultScreen
+
+@enduml

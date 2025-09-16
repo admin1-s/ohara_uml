@@ -1,0 +1,44 @@
+@startuml RoboDogシステム-時刻に応じた挨拶シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as User
+boundary メニュー画面 as Menu
+boundary 時刻入力画面 as TimeInputScreen
+boundary 挨拶表示画面 as GreetingScreen
+control 時刻登録 as TimeRegister
+control 挨拶取得 as GreetingGet
+entity Robodog as Robodog
+
+User -> Menu: 「時刻に応じた挨拶」を選択
+activate Menu
+
+Menu -> TimeInputScreen: 時刻入力画面表示
+deactivate Menu
+activate TimeInputScreen
+
+User -> TimeInputScreen: 時刻を入力
+
+TimeInputScreen -> TimeRegister: 入力時刻を登録
+activate TimeRegister
+TimeRegister -> Robodog: 時刻保存
+activate Robodog
+Robodog --> TimeRegister: 保存完了
+deactivate Robodog
+
+TimeRegister -> GreetingGet: 挨拶取得要求
+activate GreetingGet
+GreetingGet -> Robodog: 挨拶参照
+activate Robodog
+Robodog --> GreetingGet: 挨拶の言葉
+deactivate Robodog
+
+GreetingGet -> GreetingScreen: 挨拶表示画面表示
+deactivate GreetingGet
+deactivate TimeRegister
+deactivate TimeInputScreen
+activate GreetingScreen
+
+@enduml
