@@ -8,7 +8,7 @@ actor ユーザー as A
 boundary "RoboDog_menu.html" as B1
 boundary 名前の変更画面 as B2
 boundary 名前の変更結果画面 as B3
-control 名前取得 as C1
+control "ChangeMyNameData.jsp" as C1
 control 名前登録 as C2
 entity Robodog as E
 
@@ -17,7 +17,7 @@ activate B1
 
 B1 -> C1: 現在の名前を取得()
 activate C1
-C1 -> E: 名前参照()
+C1 -> E: getMyName()
 activate E
 E --> C1: 現在の名前
 deactivate E
