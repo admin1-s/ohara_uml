@@ -8,8 +8,8 @@ actor ユーザー as A
 boundary "RoboDog_menu.html" as B1
 boundary 名前の変更画面 as B2
 boundary 名前の変更結果画面 as B3
-control "ChangeMyNameData.jsp" as C1
-control "ChangeMyName.jsp" as C2
+control "ChangeMyNameData.jsp" as C1 名前の変更画面を表示する
+control "ChangeMyName.jsp" as C2 DBと通信し、名前を変更する
 entity "Robodog.java" as E
 
 A -> B1: 「名前の変更」を選択()
