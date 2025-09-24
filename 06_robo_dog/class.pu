@@ -3,19 +3,21 @@ skinparam classAttributeIconSize 0
 hide circle
  
 class RoboDog {
--名前
--時刻
--朝の挨拶
--昼の挨拶
--夜の挨拶
--1つ目の整数
--2つ目の整数
--足し算の結果
+-myName
+-myTime
+-goodMorning
+-goodAfternoon
+-goodNight
+-firstValue
+-secondValue
+'教科書にはない
+-result
  
 +getMyName()
 +setMyName()
 +setNewTime()
 +getMyGreeting()
+'教科書にはない
 +setTwoValues()
 +setAndGetResult()
 }
