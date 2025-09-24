@@ -1,0 +1,22 @@
+@startuml usecase_library
+left to right direction
+skinparam usecase {
+  FontSize 12
+}
+
+actor 事務職員 as staff
+
+rectangle "LibrarySystem" {
+  usecase UC01 as "図書を予約する"
+  usecase UC02 as "図書を借りる・返却する"
+  usecase UC03 as "図書を記録する"
+  usecase UC04 as "貸出履歴を閲覧する"
+}
+
+staff -- UC01
+staff -- UC02
+
+staff -- UC03
+staff -- UC04
+
+@enduml
