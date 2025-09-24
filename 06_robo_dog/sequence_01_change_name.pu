@@ -9,8 +9,8 @@ boundary "RoboDog_menu.html" as B1
 boundary 名前の変更画面 as B2
 boundary 名前の変更結果画面 as B3
 control "ChangeMyNameData.jsp" as C1
-control 名前登録 as C2
-entity Robodog as E
+control "ChangeMyName.jsp" as C2
+entity "Robodog.java" as E
 
 A -> B1: 「名前の変更」を選択()
 activate B1
@@ -30,7 +30,7 @@ A -> B2: 新しい名前を入力()
 
 B2 -> C2: 新しい名前を登録()
 activate C2
-C2 -> E: 名前保存()
+C2 -> E: setMyName()
 activate E
 E --> C2: 保存完了()
 deactivate E
