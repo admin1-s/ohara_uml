@@ -1,0 +1,40 @@
+@startuml BBShop_ConceptModel
+
+skinparam componentStyle rectangle
+skinparam rectangle {
+    BackgroundColor #FFF2CC
+    BorderColor #D6B656
+}
+left to right direction
+
+[顧客]
+[注文]
+[注文明細]
+[商品]
+[決済情報]
+[配送情報]
+[返品情報]
+
+[注文] o-- [顧客]
+[注文] o-- [注文明細]
+[注文] o-- [決済情報]
+[注文] o-- [配送情報]
+[注文] o-- [返品情報]
+
+[注文明細] o-- [商品]
+
+[注文] o-- [注文ステータス]
+[決済情報] o-- [決済ステータス]
+[配送情報] o-- [配送ステータス]
+[返品情報] o-- [返品ステータス]
+
+[決済情報] o-- [返金金額]
+
+[返品情報] o-- [返送理由]
+
+[注文明細] o-- [数量]
+[注文明細] o-- [単価]
+
+[商品] o-- [在庫数]
+
+@enduml
