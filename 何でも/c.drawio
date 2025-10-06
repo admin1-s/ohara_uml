@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2025-10-06T00:00:00.000Z" agent="5.0 (Windows)" version="28.2.2" editor="www.diagrams.net">
+  <diagram id="usecase_ec" name="ページ1">
+    <mxGraphModel dx="1176" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- アクター -->
+        <mxCell id="user" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="admin" value="管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="30" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ユーザー機能 -->
+        <mxCell id="user_system" value="ユーザー機能" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=0;rounded=1;horizontalStack=0;resizeParent=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="200" height="450" as="geometry"/>
+        </mxCell>
+
+        <!-- 管理者機能 -->
+        <mxCell id="admin_system" value="管理者機能" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=0;rounded=1;horizontalStack=0;resizeParent=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="200" height="450" as="geometry"/>
+        </mxCell>
+
+        <!-- ユースケース（ユーザー側） -->
+        <mxCell id="uc01" value="ログイン" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc02" value="ログアウト" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="90" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc03" value="商品を検索する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="140" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc04" value="商品を閲覧する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="190" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc05" value="カートに追加する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="240" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc06" value="注文する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="290" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc07" value="注文履歴を確認する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="user_system">
+          <mxGeometry x="20" y="340" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ユースケース（管理者側） -->
+        <mxCell id="uc08" value="商品を登録する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="admin_system">
+          <mxGeometry x="20" y="40" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc09" value="商品を編集する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="admin_system">
+          <mxGeometry x="20" y="90" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc10" value="商品を削除する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="admin_system">
+          <mxGeometry x="20" y="140" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc11" value="注文情報を管理する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="admin_system">
+          <mxGeometry x="20" y="190" width="120" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- 関連線 -->
+        <mxCell id="edge1" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc01"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge2" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc02"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge3" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc03"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge4" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc04"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge5" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc05"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge6" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc06"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge7" style="endArrow=none;html=1;" edge="1" parent="1" source="user" target="uc07"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="edge8" style="endArrow=none;html=1;" edge="1" parent="1" source="admin" target="uc08"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge9" style="endArrow=none;html=1;" edge="1" parent="1" source="admin" target="uc09"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge10" style="endArrow=none;html=1;" edge="1" parent="1" source="admin" target="uc10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge11" style="endArrow=none;html=1;" edge="1" parent="1" source="admin" target="uc11"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

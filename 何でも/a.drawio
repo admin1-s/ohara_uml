@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" version="28.2.2">
+  <diagram id="searchDiagram" name="商品検索">
+    <mxGraphModel dx="786" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- アクター -->
+        <mxCell id="actor1" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="30" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 検索画面（バウンダリ） -->
+        <mxCell id="boundary1" value="" style="shape=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="260" y="200" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="label1" value="検索画面" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 検索処理（コントロール） -->
+        <mxCell id="control1" value="" style="ellipse;shape=umlControl;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="60" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="label2" value="検索処理" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="270" width="80" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 商品データベース（エンティティ） -->
+        <mxCell id="entity1" value="" style="ellipse;shape=umlEntity;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="60" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="label3" value="商品データベース" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="270" width="120" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 検索結果画面（バウンダリ） -->
+        <mxCell id="boundary2" value="" style="shape=umlBoundary;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="76" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="label4" value="検索結果画面" style="text;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="410" width="120" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 接続 -->
+        <mxCell id="edge1" style="endArrow=open;" edge="1" parent="1" source="actor1" target="boundary1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge2" style="endArrow=open;" edge="1" parent="1" source="boundary1" target="control1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge3" style="endArrow=classic;startArrow=classic;" edge="1" parent="1" source="control1" target="entity1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge4" style="endArrow=open;" edge="1" parent="1" source="control1" target="boundary2"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge5" style="endArrow=open;" edge="1" parent="1" source="boundary2" target="actor1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
